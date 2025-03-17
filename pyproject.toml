@@ -23,6 +23,12 @@ dependencies = [
     "requests>=2.32.3",
     "rich>=13.9.4",
     "typer>=0.15.2",
+    "aiohttp>=3.8.0",
+    "jinja2>=3.0.0",
+    "pyyaml>=6.0",
+    "aiosqlite>=0.17.0",
+    "aiohttp>=3.8.0",
+    "requests>=2.32.0",
 ]
 [project.scripts]
 mcp-cli = "cli.main:app"

@@ -11,6 +11,22 @@
         "@modelcontextprotocol/server-filesystem",
         "/Users/christopherhay/chris-source/chuk-test-code/fibonacci"
       ]
+    },
+    "openapi": {
+      "command": "python",
+      "args": ["-m", "mcp.servers.openapi.server"],
+      "env": {
+        "PYTHONPATH": "src"
+      }
+    },
+    "amazon_music": {
+      "command": "python",
+      "args": ["-m", "mcp.servers.amazon_music.server"],
+      "env": {
+        "PYTHONPATH": "src",
+        "AMAZON_CLIENT_ID": "your_client_id_here",
+        "AMAZON_CLIENT_SECRET": "your_client_secret_here"
+      }
     }
   }
 }
